@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HelloWorld.h"
 
 FOUNDATION_EXPORT double MylibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char MylibraryVersionString[];

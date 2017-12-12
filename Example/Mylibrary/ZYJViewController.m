@@ -7,8 +7,7 @@
 //
 
 #import "ZYJViewController.h"
-//#import "Mylibrary/HelloWorld.h"
-#import <Mylibrary/HelloWorld.h>
+#import "Mylibrary/HelloWorld.h"
 
 @interface ZYJViewController ()
 
@@ -20,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[HelloWorld new] hello];
 }
 
 - (void)didReceiveMemoryWarning
